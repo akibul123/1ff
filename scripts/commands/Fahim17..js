@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "iloveu",
+  name: "fahim.18",
   version: "2.0.0",
   permission: 0,
   credits: "nayan",
@@ -13,9 +13,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("I love you")==0 || (event.body.indexOf("i love you")==0 || (event.body.indexOf("I love u")==0 || (event.body.indexOf("I love you")==0)))) {
+	if (event.body.indexOf("@Tasfiya Jannat Mitu")==0 || (event.body.indexOf("tasfiya")==0 || (event.body.indexOf(",")==0 || (event.body.indexOf(",")==0)))) {
 		var msg = {
-				body: "Hmm... বস ফাহিম ও তোমাকে ভালোবাসে😇😻 :))"
+				body: "ওরে কেউ মেনসন দিবি না ও বস ফাহিম এর ভালোবাসা and বউ 😍🥰 :))"
     }
 			api.sendMessage(msg, threadID, messageID);
 		}

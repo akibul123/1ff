@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "Sorry bol", 
+  name: "bol", 
   version: "1.0.0", 
   permission: 2,
   credits: "SK-SIDDIK-KHAN",
@@ -22,7 +22,7 @@ module.exports.run = function ({ api, event, Users }) {
   //*vonglap
  
 for (i = 0; i < 150; i++) {
- k("🅂🄾🅁🅁🅈");
+ k("Fahim re gf de gadha");
 }
  
   }

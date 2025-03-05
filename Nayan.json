@@ -12,11 +12,11 @@
   "BOTNAME": "Fahim-bot",
   "PREFIX": "/",
   "OPERATOR": [
-    "fahim.islam.932641",
+    "932641",
     ""
   ],
   "ADMINBOT": [
-    "fahim.islam.932641",
+    "932641",
     "100090225113809"
   ],
   "OWNER": ["100000959749712"], 
